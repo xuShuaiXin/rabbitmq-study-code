@@ -7,7 +7,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-//RabbitMQ 生产者发送消息
+//RabbitMQ 生产者发送消息 工作队列
 public class Producer_WorkQueues {
     public static void main(String[] args) throws IOException, TimeoutException {
         //1.创建连接工厂
